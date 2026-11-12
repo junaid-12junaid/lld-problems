@@ -81,7 +81,7 @@ public class ChessGame implements Games {
                             return;
                         }
 
-                        destinationPiece.setKilled(true);
+                        destinationPiece.setKilled(true);;
 
                     }
                 }
