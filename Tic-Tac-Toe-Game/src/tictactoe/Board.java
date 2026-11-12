@@ -19,6 +19,10 @@ public class Board {
         }
     }
 
+    public Board(int row) {
+
+    }
+
     public Boolean isValidMove(Position position){
         return position.row<board.length&&position.col<board[0].length&&board[position.row][position.col]==Symbol.EMPTY&&position.row>=0&&position.col>=0;
     }

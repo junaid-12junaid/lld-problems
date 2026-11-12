@@ -34,7 +34,7 @@ public class TicTacToeGame implements BoardGames{
     }
     public void switchPlayer(){
         currentPlayer=currentPlayer==playerX?playerO:playerX;
-        System.out.println("The Player is now"+currentPlayer.getName());
+        System.out.println("The UtilityClasses.Player is now"+currentPlayer.getName());
     }
     public void anounceWinner(){
         GameState state= context.getCurrentState();
