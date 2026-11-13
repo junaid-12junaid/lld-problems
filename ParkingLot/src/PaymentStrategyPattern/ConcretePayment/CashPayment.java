@@ -1,0 +1,10 @@
+package PaymentStrategyPattern.ConcretePayment;
+
+import PaymentStrategyPattern.PaymentStrategy;
+
+public class CashPayment implements PaymentStrategy {
+    @Override
+    public void processPayment(double amount) {
+        System.out.println("Processing the Cash Payment of "+amount);
+    }
+}
